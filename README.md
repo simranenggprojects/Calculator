@@ -1,4 +1,4 @@
-# Calculator
+# Calculator using Heroku
 A very basic calculator built using
 
 ## Technology Stack
@@ -23,3 +23,5 @@ Divide
 
 ## URL 
 https://calculator-by-simran.herokuapp.com/
+
+#### Note: Prefer to view on CHROME
