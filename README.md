@@ -22,6 +22,6 @@ Multiply
 Divide
 
 ## URL 
-https://calculator-by-simran.herokuapp.com/
+ https://calculator-by-simran.herokuapp.com/
 
 #### Note: Prefer to view on CHROME
