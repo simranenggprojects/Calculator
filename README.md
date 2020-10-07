@@ -23,5 +23,14 @@ Divide
 
 ## URL 
  https://calculator-by-simran.herokuapp.com/
+ 
+## Some of salient features
+1. Ability to handle large numbers
+2. Ability to handle corner cases like
+ 2.1 division by zero
+ 2.2 0/0
+ 2.3 blank input
+3. Responsive web design
+4. Desktop and mobile friendly
 
 #### Note: Prefer to view on CHROME
