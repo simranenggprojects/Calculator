@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: url("https://www.teachingchannel.com/hubfs/cropped_Copy%20of%20Math_Blog.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.maincontainer{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.format-class{
+    margin: 2%;
+    background-color: white;
+    padding: 10% 0.5%;
+    width: 50vw;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.margin-class{
+    margin: 10px;
+}
+
+.btn{
+    padding: 5px;
+    font-size: 0.9rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: #000000;
+    color: white;
+    width: 100%;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+h1{
+    font-size: 6vw;
+}
+
+.result{
+    font-size: 4vw;
+    word-break: break-all;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
