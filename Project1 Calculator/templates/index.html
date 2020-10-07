@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Calculator | by Simran</title>
+      <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+   </head>
+   <body>
+      <div class="main">
+         <div class="format-class container">
+            <div>
+               <h1 class="margin-class">Calculator</h1>
+            </div>
+            <form action="/math" method="POST">
+               <div>
+                  Enter Number 1
+                  <input type="number" id="num1" name="num1">
+               </div>
+               <div>
+                  Enter Number 2
+                  <input type="number" id="num2" name="num2">
+               </div>
+               <div class="margin-class">
+                  <label for="operation">Operation</label>
+                  <select name="operation" id="operation" style="width: 100%;">
+                     <option value="add">Add</option>
+                     <option value="subt">Subtract</option>
+                     <option value="multiply">Multiply</option>
+                     <option value="divide">Divide</option>
+                  </select>
+               </div>
+               <div class="margin-class">
+                  <input type="submit" value="Calculate" class="btn">
+               </div>
+            </form>
+         </div>
+      </div>
+   </body>
+</html>
